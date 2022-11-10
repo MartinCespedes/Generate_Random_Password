@@ -23,3 +23,5 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+![Generate Random Password](.//images/03-javascript-homework-demo.pngimages/03-javascript.png)
