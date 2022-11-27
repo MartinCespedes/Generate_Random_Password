@@ -76,8 +76,7 @@ header {
   border: none;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -112,7 +111,7 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dashed #cbd2da;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
@@ -132,6 +131,6 @@ button[disabled] {
 
 @media (max-width: 500px) {
   .btn {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
