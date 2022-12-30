@@ -1,5 +1,5 @@
 // Assignment code here
-var generateBtn = document.querySelector("#generate");
+let generateBtn = document.querySelector("#generate");
 
 function randomInt(min, max) {
   if (!max) {
@@ -7,7 +7,7 @@ function randomInt(min, max) {
     min = 0;
   }
 
-  var rand = Math.random();
+  let rand = Math.random();
   return Math.floor(min * (1 - rand) + rand * max);
 }
 
@@ -17,14 +17,14 @@ function getRandomItem(list) {
 
 function generatePassword() {
   while (true) {
-    var userInput = window.prompt("How long do want your password to be?");
+    let userInput = window.prompt("How long do want your password to be?");
 
     // if user exits the window prompt //
     if (userInput === null) {
       return;
     }
 
-    var passwordLength = parseInt(userInput);
+    let passwordLength = parseInt(userInput);
 
     // (isNan) = is not a number when user types something else //
     if (isNaN(passwordLength)) {
@@ -36,22 +36,22 @@ function generatePassword() {
     }
   }
 
-  var userWantsNumbers = window.confirm(
+  let userWantsNumbers = window.confirm(
     "Would you like to include numbers in your password?"
   );
-  var userWantsSymbols = window.confirm(
+  let userWantsSymbols = window.confirm(
     "Would you like to include symbols in your password?"
   );
-  var userWantsLowerCase = window.confirm(
+  let userWantsLowerCase = window.confirm(
     "Would you like to include lowercase letters in your password?"
   );
-  var userWantsUpperCase = window.confirm(
+  let userWantsUpperCase = window.confirm(
     "Would you like to include uppercase letters in your password?"
   );
 
-  var numberList = ["0", "1", "3", "4", "5", "6", "7", "8", "9"];
-  var symbolList = ["!", "@", "#", "$", "%", "^", "&", "*"];
-  var lowercaseList = [
+  let numberList = ["0", "1", "3", "4", "5", "6", "7", "8", "9"];
+  let symbolList = ["!", "@", "#", "$", "%", "^", "&", "*"];
+  let lowercaseList = [
     "a",
     "b",
     "c",
@@ -79,11 +79,11 @@ function generatePassword() {
     "y",
     "z",
   ];
-  var uppercaseList = [];
+  let uppercaseList = [];
 
-  var optionsCart = [];
+  let optionsCart = [];
 
-  for (var i = 0; i < lowercaseList.length; i++) {
+  for (let i = 0; i < lowercaseList.length; i++) {
     uppercaseList[i] = lowercaseList[i].toUpperCase();
   }
 
@@ -107,11 +107,11 @@ function generatePassword() {
     optionsCart.push(lowercaseList);
   }
 
-  var generatePassword = "";
+  let generatePassword = "";
 
-  for (var i = 0; i < passwordLength; i++) {
-    var randomList = getRandomItem(optionsCart);
-    var randomChar = getRandomItem(randomList);
+  for (let i = 0; i < passwordLength; i++) {
+    let randomList = getRandomItem(optionsCart);
+    let randomChar = getRandomItem(randomList);
     generatePassword += randomChar;
   }
 
@@ -120,8 +120,8 @@ function generatePassword() {
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  let password = generatePassword();
+  let passwordText = document.querySelector("#password");
 
   if (password) {
     passwordText.value = password;
