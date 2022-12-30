@@ -1,5 +1,5 @@
 // Assignment code here
-let generateBtn = document.querySelector("#generate");
+let generateButton = document.querySelector("#generate");
 
 function randomInt(min, max) {
   if (!max) {
@@ -129,4 +129,4 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateButton.addEventListener("click", writePassword);
