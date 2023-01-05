@@ -1,4 +1,4 @@
-[Live Link To Application](https://martincespedes.github.io/Web_API_Quiz/)
+[Link To Github](https://martincespedes.github.io/Generate_Random_Password/)
 
 ## :bulb: User Story
 
