@@ -1,5 +1,5 @@
 // Assignment code here
-let generateButton = document.querySelector("#generate");
+var generateButton = document.querySelector("#generate");
 
 function randomInt(min, max) {
   if (!max) {
@@ -24,7 +24,7 @@ function generatePassword() {
       return;
     }
 
-    let passwordLength = parseInt(userInput);
+    var passwordLength = parseInt(userInput);
 
     // (isNan) = is not a number when user types something else //
     if (isNaN(passwordLength)) {

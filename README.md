@@ -1,4 +1,4 @@
-[Link To Github](https://martincespedes.github.io/Generate_Random_Password/)
+[Live Link To Github](https://martincespedes.github.io/Generate_Random_Password/)
 
 ## :bulb: User Story
 
