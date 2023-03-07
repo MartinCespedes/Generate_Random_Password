@@ -17,7 +17,9 @@ function getRandomItem(list) {
 
 function generatePassword() {
   while (true) {
-    let userInput = window.prompt("How long do want your password to be?");
+    let userInput = window.prompt(
+      "Enter the desired length of your password as a number."
+    );
 
     // if user exits the window prompt //
     if (userInput === null) {
