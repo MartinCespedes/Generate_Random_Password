@@ -20,15 +20,17 @@
 
 [Usage](#usage)
 
-[Resources & Credit](#resourcescredit)
-
 [Features](#features)
 
 [Application Screenshot Preview](#application-screenshot-preview)
 
+[Resources & Credit](#resourcescredit)
+
 [License](#license)
 
 ## Description
+
+When the user clicks a button to generate a password, they are presented with prompts for password criteria, such as length and character types. The input is validated and at least one character type must be selected. Once all prompts are answered, a password is generated that matches the selected criteria and is either displayed in an alert or written to the page. This feature improves security by providing employees with a strong and randomly generated password.
 
 ## User Story
 
@@ -86,10 +88,6 @@
 - You can copy the password to your clipboard by clicking the "Copy to Clipboard" button
 ```
 
-## Resources/Credit
-
-- Author: Martin Cespedes - [Link to my Github](https://github.com/MartinCespedes)
-
 ## Features
 
 ```md
@@ -109,6 +107,10 @@
 ## Application Screenshot Preview
 
 ![Password Generator](./Develop/images/03-javascript-homework-demo.png)
+
+## Resources/Credit
+
+- Author: Martin Cespedes - [Link to my Github](https://github.com/MartinCespedes)
 
 ## License
 
