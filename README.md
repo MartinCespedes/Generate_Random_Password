@@ -62,7 +62,7 @@ When the user clicks a button to generate a password, they are presented with pr
 
 ## Installation
 
-```md
+```
 - To install and use the Password Generator application, follow these steps:
 
 - Open the Live Link to App provided in the project description.
@@ -76,7 +76,7 @@ When the user clicks a button to generate a password, they are presented with pr
 
 ## Usage
 
-```md
+```
 - To use the Password Generator application, follow these steps:
 
 - Click the "Generate Password" button on the main page.
@@ -90,7 +90,7 @@ When the user clicks a button to generate a password, they are presented with pr
 
 ## Features
 
-```md
+```
 - The Password Generator application includes the following features:
 
 - User input validation to ensure the selected password length is between 8 and 128 characters.
